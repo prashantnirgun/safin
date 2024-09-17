@@ -1,0 +1,8 @@
+{
+  "SITE_NAME": "SA Finanace",
+  "HOST": "localhost:9000/",
+  "STATIC": "https://localhost:3000/",
+  "SECRETKEY": "YdUSM2qNamJWAuqApTWxJqLdF4gp8i",
+  "API_URL": "http://192.46.211.194:3000/api/",
+  "API_STATIC": "http://128.199.163.152:21465/files/"
+}

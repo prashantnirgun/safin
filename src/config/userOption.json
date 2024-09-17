@@ -1,0 +1,101 @@
+[
+  {
+    "label": "Home",
+    "icon": "home",
+    "to": "/",
+    "level": 1
+  },
+  {
+    "label": "Dashboard",
+    "icon": "dashboard",
+    "to": "/dashboard",
+    "level": 1
+  },
+  {
+    "label": "Masters",
+    "icon": "view_list",
+    "level": 0.5,
+    "loggedIn": true,
+    "isAdmin": true,
+    "children": [
+      {
+        "label": "Ledgers",
+        "icon": "article",
+        "to": "/ledger",
+        "level": 1
+      },
+      {
+        "label": "Scheme",
+        "icon": "campaign",
+        "to": "/scheme",
+        "level": 1
+      },
+      {
+        "label": "Users",
+        "icon": "people",
+        "to": "/users",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "label": "Transaction",
+    "icon": "account_balance_wallet",
+    "level": 0.5,
+    "loggedIn": true,
+    "isAdmin": true,
+    "children": [
+      {
+        "label": "Loans",
+        "icon": "real_estate_agent",
+        "to": "/loan",
+        "level": 1
+      },
+      {
+        "label": "Deposits",
+        "icon": "savings",
+        "to": "/deposit",
+        "level": 1
+      },
+      {
+        "label": "Vouchers",
+        "icon": "payments",
+        "to": "/voucher",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "label": "Settings",
+    "icon": "settings",
+    "level": 0.5,
+    "loggedIn": true,
+    "isAdmin": true,
+    "children": [
+      {
+        "label": "Profile",
+        "icon": "account_box",
+        "to": "/profile",
+        "level": 1
+      },
+      {
+        "label": "Prference",
+        "icon": "tune",
+        "to": "/preferane",
+        "level": 1
+      },
+      {
+        "label": "Logs",
+        "icon": "query_stats",
+        "to": "/logs",
+        "level": 1
+      }
+    ]
+  },
+  {
+    "label": "Login",
+    "icon": "login",
+    "to": "/login",
+    "level": 1
+  }
+]
